@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/man.svg">
+    <title>Eze Koblik</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <section class="navbar-web">
+            <h1>Eze Koblik</h1>
+            <nav class="navbar">
+                    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                    <a href="#person"><i class="fas fa-child"></i>Sobre mí</a>
+                    <a href="#service"><i class="fas fa-tools"></i>Servicios</a>
+                    <a href="#education"><i class="fas fa-university"></i>Experiencia</a>
+                    <a href="#work"><i class="fas fa-briefcase"></i>Mis trabajos</a>
+                    <a href="#contac"><i class="fas fa-address-card"></i>Contactame</a>
+            </nav>
+        </section>
+        <div class="contenedor-secundario">
+            <section class="navbar-responsive">
+                <nav class="navbar-mobile">
+                    <label for="navbar" class="navbar-mobile_label">
+                      <input type="checkbox" id="navbar" class="navbar-input">
+                      <div class="navbar-open">
+                        <i class="fas fa-bars"></i>
+                      </div>
+                      <div class="navbar-close">
+                        <i class="fas fa-times"></i>
+                      </div>
+                      <div class="navbar-contenido">
+                        <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                        <a href="#person"><i class="fas fa-child"></i>Sobre mí</a>
+                        <a href="#service"><i class="fas fa-tools"></i>Servicios</a>
+                        <a href="#education"><i class="fas fa-university"></i>Experiencia</a>
+                        <a href="#work"><i class="fas fa-briefcase"></i>Mis trabajos</a>
+                        <a href="#contac"><i class="fas fa-address-card"></i>Contactame</a>
+                      </div>
+                    </label>
+                  </nav>
+            </section>
+            <section class="banner" id="home">
+                <div class="background"></div>
+                <div class="banner-principal">
+                    <img src="imagenes/man.svg" alt="">
+                    <h2>Eze Koblik</h2>
+                    <span>Frontend Developer</span>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/ezequiel-koblik-187363146/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/ezekoblik" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ezekoblik" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/ezekoblik" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="boton">
+                        <a href="#contac"><button>Contactame</button></a>
+                    </div>
+                </div>
+                <a href="#person" class="scroll">
+                    <span>Scroll Down</span>
+                    <i class="far fa-hand-point-down"></i>
+                </a>
+            </section>
+            <section class="sobre-mi" id="person">
+                <h3>Sobre mí</h3>
+                <div class="contenedor-info">
+                    <div class="picture">
+                        <img src="imagenes/man.svg" alt="">
+                    </div>
+                    <div class="mi-persona">
+                        <div class="info">
+                            <p>Hola, me llamo Ezequiel Koblik y estos son mis primeros pasos en el mundo del desarrollo web.</p>
+                            <a href="https://www.linkedin.com/in/ezequiel-koblik-187363146/" target="_blank"><button>Curriculum</button></a>
+                        </div>
+                        <div class="skills">
+                            <h3>HTML</h3>
+                            <div class="barra-progreso">
+                                <div class="barra-color"></div>
+                            </div>
+                            <h3>CSS</h3>
+                            <div class="barra-progreso">
+                                <div class="barra-color2"></div>
+                            </div>
+                            <h3>My SQL</h3>
+                            <div class="barra-progreso">
+                                <div class="barra-color3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="servicios" id="service">
+                <h3>Servicios</h3>
+                <div class="cards">
+                    <div class="tarjet t1">
+                        <img src="imagenes/html-5.svg" alt="">
+                        <h3 class="title-card">HTML</h3>
+                        <p>Conjunto de conocimientos en HTML5, con un buen manejo de las etiquetas como así también de la semántica</p>
+                    </div>
+                    <div class="tarjet t2">
+                        <img src="imagenes/css-3.svg" alt="">
+                        <h3 class="title-card">CSS</h3>
+                        <p>Diseño de páginas web, buen manejo de las propiedades y diseño resposive</p>
+                    </div>
+                    <div class="tarjet t3">
+                        <img src="imagenes/mysql.svg" alt="">
+                        <h3 class="title-card">MY SQL</h3>
+                        <p>Entendimiento básico sobre el lenguaje y comprensión del funcionamiento de las bases de datos</p>
+                    </div>
+                </div>
+            </section>
+            <section class="experiencia" id="education">
+                <h3>Experiencia</h3>
+                <div class="contenedor-exp">
+                    <div class="academy">
+                        <div class="contenedor-educacion">
+                            <i class="fas fa-book-reader"></i>
+                            <span class="fecha">2020-actualidad</span>
+                            <span class="subtitle">Rocket Code</span>
+                            <p>Con este curso, aprendí toda la base de <strong>HTML5</strong> y <strong>CSS3</strong>. Elementos, etiquetas, atributo, propiedades, responsive, semántica; todo lo necesario para empezar a desarrollar páginas web. Curso completo</p>
+                        </div>
+                        <div class="contenedor-educacion">
+                            <i class="fas fa-book-reader"></i>
+                            <span class="fecha">2018-2019</span>
+                            <span class="subtitle">Educacion IT</span>
+                            <p>Realicé un curso de My SQL, donde conocí el mundo de las bases de datos, como trabajan y como se instalan. Curso incompleto</p>
+                        </div>
+                    </div>
+                    <div class="jobs">
+                        <div class="contenedor-trabajo">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="fecha">2018-actualidad</span>
+                            <span class="subtitle">Federado cafe</span>
+                            <p>Me encuentro trabajando en la parte de gastronomia, al mismo tiempo aprendiendo y desarrollando mis habilidades en la programación.</p>
+                        </div>
+                        <div class="contenedor-trabajo">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="fecha">2017-2018</span>
+                            <span class="subtitle">Food Service-cocina Facebook</span>
+                            <p>Trabajé en la cocina de las oficinas de Facebook en Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="trabajos" id="work">
+                <h3>Mis Trabajos</h3>
+                <div class="contenedor-img">
+                    <div class="job-img">
+                        <img src="imagenes/undraw_Code_review_re_woeb.svg" alt="">
+                        <div class="job-secundario"><span>HTML and CSS</span></div>
+                    </div>
+                    <div class="job-img">
+                        <img src="imagenes/undraw_Chef_cu0r.svg" alt="">
+                        <div class="job-secundario"><span>Cocinero</span></div>
+                    </div>
+                    <div class="job-img">
+                        <img src="imagenes/undraw_Confirmation_re_b6q5.svg" alt="">
+                        <div class="job-secundario"><span>Atención al Cliente</span></div>
+                    </div>
+                    <div class="job-img">
+                        <img src="imagenes/undraw_spreadsheets_xdjy.svg" alt="">
+                        <div class="job-secundario"><span>Excel Avanzado</span></div>
+                    </div>
+                    <div class="job-img">
+                        <img src="imagenes/undraw_web_developer_p3e5.svg" alt="">
+                        <div class="job-secundario"><span>Frontend developer</span></div>
+                    </div>
+                    <div class="job-img">
+                        <img src="imagenes/undraw_heavy_box_agqi.svg" alt="">
+                        <div class="job-secundario"><span>Depósito</span></div>
+                    </div>
+                </div>
+                <a href="home.html"><button>Ver todo</button></a>
+            </section>
+            <section class="contacto" id="contac">
+                <h3>Contactame</h3>
+                <div class="contenedor-contacto">
+                    <div class="message">
+                        <span>Enviame un mensaje</span>
+                        <p>Si queres consultarme por algún trabajo, contactame por este medio y te respondo a la brevedad</p>
+                    </div>
+                    <form class="formulario">
+                        <div class="caja">
+                            <div class="form">
+                                <input type="text" id="name" required>                       
+                                <label for="name"><span class="dato">Nombre</span></label></div>
+                            <div class="form">
+                                <input type="email" id="correo" required>
+                                <label for="correo"><span class="dato">E-mail</span></label>
+                            </div>
+                        </div>      
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <footer class="foot">
+                <span>Ezquiel koblik</span>
+                <div class="img-foot">
+                    <a href="https://www.linkedin.com/in/ezequiel-koblik-187363146/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/ezekoblik" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ezekoblik" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ezekoblik" target="_blank"><i class="fab fa-github"></i></a>                   
+                </div>
+            </footer>
+        </div>       
+    </div>
+    <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+</html>
